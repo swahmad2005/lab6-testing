@@ -30,7 +30,4 @@ def sample_run_anonymizer(text, start, end):
     # ]
 
 if __name__ == "__main__":
-    text = input("text: ")
-    start = int(input("start: "))
-    end = int(input("end: "))
-    result = sample_run_anonymizer(text, start, end)
+    result = sample_run_anonymizer("My name is Bond.", 11, 15)
