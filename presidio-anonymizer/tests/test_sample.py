@@ -6,4 +6,3 @@ def test_sample_run_anonymizer():
     assert result.text == "My name is BIP."
     assert result.items[0].start == 11
     assert result.items[0].end == 14
-    pass
